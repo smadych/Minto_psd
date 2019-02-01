@@ -1,0 +1,139 @@
+.navbar {
+  margin: 2em 0;
+  padding: 0 !important;
+}
+.navbar img {
+  padding-right: 1%;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  text-align: left;
+  font-weight: 300;
+  font-size: 39px !important;
+}
+
+.nav-link, .navbar-brand {
+  color: #a292b3;
+  cursor: pointer;
+  transition: 1s linear;
+}
+.nav-link:hover, .navbar-brand:hover {
+  color: #773ab8;
+  transition: 0.5s;
+}
+
+.nav-link {
+  margin-right: 3em !important;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+}
+.nav-link img {
+  margin-right: 5%;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.carousel {
+  margin: 0 auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 5% !important;
+}
+
+.carousel-control-prev .carousel-control-prev-icon, .carousel-control-next .carousel-control-next-icon {
+  background-color: #82699d;
+  width: 80%;
+  height: 15%;
+}
+
+.paragraph {
+  margin: 2em 0;
+  border-top: 1px solid #bfbfbf;
+  border-bottom: 1px solid #bfbfbf;
+  padding: 1em 2em;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  font-style: italic;
+}
+.paragraph span {
+  color: #82699d;
+  font-weight: bold;
+}
+.paragraph p {
+  margin-bottom: 0;
+  color: #494848;
+}
+
+.content .image {
+  margin-bottom: 2em;
+}
+.content .description {
+  font-size: 20px;
+}
+.content .description span {
+  font-weight: bold;
+}
+
+.content .text-content h2 {
+  font-size: 31px !important;
+  color: #505051;
+  margin: 1em 0;
+  font-weight: 500;
+}
+.content .text-content p {
+  color: #838383;
+  font-size: 15px;
+}
+.content .text-content .additional {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.content .text-content .additional span {
+  color: #838383;
+  font-style: italic;
+  font-size: 13px;
+}
+.content .text-content .additional img {
+  width: auto;
+  height: 7px;
+  margin-left: 1%;
+}
+
+.partners {
+  margin: 2em 0;
+}
+.partners div {
+  padding: 1em;
+  border: 0.1px solid #bfbfbf;
+  background-color: #f5f5f5;
+}
+.partners img {
+  margin: auto auto;
+  vertical-align: middle;
+}
+.partners .parent-block {
+  display: flex;
+  align-items: center;
+}
+
+.page-footer {
+  background-image: url("images/footer_background.png");
+  border-bottom: 8px solid #82699d;
+}
+.page-footer p {
+  color: #454242;
+  font-size: 12px;
+  font-weight: 100;
+}
+.page-footer img {
+  margin-left: 1em;
+}
+
+/*# sourceMappingURL=style.css.map */
